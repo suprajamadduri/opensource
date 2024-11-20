@@ -1,0 +1,7 @@
+v,c = input().split()
+if v==c:
+    print("NULL")
+elif (v=='P' and c=='R') or (v=='R' and c=='S') or (v=='S' and c=='P'):
+    print("Vignesh")
+else:
+    print("Charan")
